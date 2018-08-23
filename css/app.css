@@ -1,0 +1,104 @@
+/*COLORS*/
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  color: #353C3F;
+  line-height: 1.2;
+  overflow-x: hidden; }
+
+.pimg1, .pimg2, .pimg3, .pimg4 {
+  position: relative;
+  opacity: 0.60;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.pimg1 {
+  background-image: url("../images/image1.jpg");
+  background-size: 100% 100%;
+  min-height: 100%; }
+
+.pimg2 {
+  background-image: url("../images/image2.jpg");
+  background-size: 100%;
+  min-height: 550px; }
+
+.pimg3 {
+  background-image: url("../images/image3.jpg");
+  background-size: 100%;
+  min-height: 550px; }
+
+.pimg4 {
+  background-image: url("../images/image4.jpg");
+  background-size: 100% 100%;
+  min-height: 100%; }
+
+section {
+  padding: 3rem 5rem;
+  text-align: justify; }
+
+h2 {
+  text-align: center; }
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #353C3F;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem; }
+  .ptext .border {
+    margin: auto;
+    width: 50%;
+    color: #ffffff;
+    background-color: #353C3F;
+    padding: 1rem 0.1rem; }
+    .ptext .border.trans {
+      background-color: transparent !important;
+      font-weight: bold; }
+
+.footer {
+  position: absolute;
+  top: 95%;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  color: #353C3F; }
+  .footer .border {
+    margin: auto;
+    width: 100%;
+    color: #ffffff;
+    background-color: #353C3F;
+    padding: 1rem 0.1rem; }
+  .footer a {
+    text-decoration: none;
+    color: #FFD300; }
+
+/*Media Query*/
+@media screen and (max-width: 500px) {
+  body, html {
+    font-size: 0.9rem; }
+
+  .pimg1, .pimg2, .pimg3, .pimg4 {
+    background-attachment: scroll; }
+
+  section {
+    padding: 1.5rem 2rem; }
+
+  .ptext {
+    position: absolute;
+    font-size: 1.2rem;
+    top: 42%; }
+    .ptext .border {
+      padding: 1.2rem 1rem; } }
+/*# sourceMappingURL=app.css.map */
